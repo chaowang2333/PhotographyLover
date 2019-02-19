@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutViewController" customModule="PhotographyLover" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFt-tE-39i">
+                    <rect key="frame" x="0.0" y="60" width="375" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="UbQ-DV-yPp"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="Photography Lover">
+                            <attributes>
+                                <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="NSColor" red="0.9882352941176471" green="0.25098039215686274" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="24" name="Futura-Medium"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIT4039 - Assignment3" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2r7-Vq-xJb">
+                    <rect key="frame" x="188" y="171" width="172" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="hCY-EK-cVF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chao Wang" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRd-KT-ayY">
+                    <rect key="frame" x="276" y="200" width="84" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="peK-yn-xu3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="27548848" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8f-41-pq9">
+                    <rect key="frame" x="282" y="229" width="78" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="r1o-Xl-LhR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpe-9I-rln">
+                    <rect key="frame" x="15" y="475" width="345" height="172"/>
+                    <string key="text">Library used:
+Firebase: login, database and image storage
+MBProgressHUD: show message and waiting indicator
+SwiftyJSON: get value from json data
+BreakOutToRefreshView: pull to refresh for tableview
+Kingfisher: image download and cache </string>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="2r7-Vq-xJb" firstAttribute="top" secondItem="fFt-tE-39i" secondAttribute="bottom" constant="80" id="17R-WJ-IEj"/>
+                <constraint firstAttribute="trailing" secondItem="sRd-KT-ayY" secondAttribute="trailing" constant="15" id="8PX-n9-ZiB"/>
+                <constraint firstAttribute="trailing" secondItem="C8f-41-pq9" secondAttribute="trailing" constant="15" id="98V-sm-3ik"/>
+                <constraint firstItem="C8f-41-pq9" firstAttribute="top" secondItem="sRd-KT-ayY" secondAttribute="bottom" constant="8" id="CMN-NX-xly"/>
+                <constraint firstAttribute="trailing" secondItem="bpe-9I-rln" secondAttribute="trailing" constant="15" id="Gq0-jV-SdU"/>
+                <constraint firstItem="bpe-9I-rln" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="IBt-iR-zXo"/>
+                <constraint firstAttribute="bottom" secondItem="bpe-9I-rln" secondAttribute="bottom" constant="20" id="OuJ-9d-pdR"/>
+                <constraint firstItem="sRd-KT-ayY" firstAttribute="top" secondItem="2r7-Vq-xJb" secondAttribute="bottom" constant="8" id="RFN-NT-IyT"/>
+                <constraint firstAttribute="trailing" secondItem="2r7-Vq-xJb" secondAttribute="trailing" constant="15" id="SLL-XY-YeW"/>
+                <constraint firstAttribute="trailing" secondItem="fFt-tE-39i" secondAttribute="trailing" id="hs2-CY-yfd"/>
+                <constraint firstItem="fFt-tE-39i" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kgF-99-uw1"/>
+                <constraint firstItem="fFt-tE-39i" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="zp5-mG-g0g"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="123.5"/>
+        </view>
+    </objects>
+</document>
